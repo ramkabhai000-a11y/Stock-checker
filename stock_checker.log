@@ -2,3 +2,5 @@
 2026-07-12 18:34:53,813 [ERROR] Telegram send failed: {"ok":false,"error_code":401,"description":"Unauthorized"}
 2026-07-12 18:34:53,814 [INFO] Alert sent: 💰 <b>PRICE DROP</b>: DWC Villianur Watch
 2026-07-12 18:34:55,815 [INFO] Check complete for 1 product(s).
+2026-07-12 18:45:22,655 [INFO] Checking: DWC Villianur Watch
+2026-07-12 18:45:25,119 [INFO] Check complete for 1 product(s).
