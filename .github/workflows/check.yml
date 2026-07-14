@@ -29,5 +29,12 @@ jobs:
           git config user.name "stock-checker-bot"
           git config user.email "actions@github.com"
           git add state.json stock_checker.log
-          git diff --cached --quiet || git commit -m "Update stock state [skip ci]"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Update stock state [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 3
+          done
+          echo "All push attempts failed - non-fatal, will retry next run"
+          exit 0
