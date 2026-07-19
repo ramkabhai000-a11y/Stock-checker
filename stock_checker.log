@@ -12419,3 +12419,6 @@
 2026-07-19 02:09:24,568 [INFO] Check complete for 1 product(s).
 2026-07-19 02:10:45,674 [INFO] Checking: DWC Villianur Watch
 2026-07-19 02:10:48,059 [INFO] Check complete for 1 product(s).
+2026-07-19 02:11:19,171 [INFO] Checking: DWC Villianur Watch
+2026-07-19 02:11:19,375 [ERROR] Failed to fetch https://delhiwatchcompany.com/products/dwc-villianur: 503 Server Error: Service Unavailable for url: https://delhiwatchcompany.com/products/dwc-villianur
+2026-07-19 02:11:21,377 [INFO] Check complete for 1 product(s).
